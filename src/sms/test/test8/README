@@ -1,0 +1,9 @@
+To run this test you will need to install the following packages:
+- libwbxml2-0
+- python-wbxml
+
+NOTES:
+- python-wbxml last seen in the Ubuntu 10.04 repo (support for it seems to have been dropped from then on)
+
+WARNING:
+The XML->WBXML library provided with these packages likes to strip ".com", ".org" and possibly other common domain suffix endings!

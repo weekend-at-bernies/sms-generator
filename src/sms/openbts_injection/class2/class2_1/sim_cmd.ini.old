@@ -1,0 +1,89 @@
+% SIM COMMAND (GSM 03.48)
+
+% CPL
+% Command Packet Length
+GenerateCPL=1
+CPL=0000
+
+% CHL
+% Command Header Length
+GenerateCHL=1
+CHL=00
+
+% SPI
+SPI15=0
+SPI14=0
+SPI13=0
+SPI12=0
+SPI11=1
+SPI10=1
+SPI9=1
+SPI8=0
+SPI7=0
+SPI6=0
+SPI5=0
+SPI4=1
+SPI3=1
+SPI2=0
+SPI1=0
+SPI0=1
+
+% KiC
+%KiC7=0
+%KiC6=0
+%KiC5=1
+%KiC4=0
+%KiC3=0
+%KiC2=1
+%KiC1=0
+%KiC0=1
+
+% KiD
+%KiD7=0
+%KiD6=0
+%KiD5=1
+%KiD4=0
+%KiD3=0
+%KiD2=1
+%KiD1=0
+%KiD0=1
+
+% Experimental KiC
+KiC7=0
+KiC6=0
+KiC5=0
+KiC4=0
+KiC3=1
+KiC2=1
+KiC1=1
+KiC0=1
+
+% Experimental KiD
+KiD7=0
+KiD6=0
+KiD5=0
+KiD4=0
+KiD3=1
+KiD2=1
+KiD1=1
+KiD0=1
+
+% TAR
+%TAR=000000
+
+% Experiment TAR
+TAR=FFFFFF
+
+% CNTR
+CNTR=010E0A8A0E
+
+% PCNTR
+PCNTR=1B
+
+% RC_CC_DS (optional: 0, 4 or 8 octets)
+RC_CC_DS=D80CABB2C3F3903D
+
+% Secured Data
+GenerateSecData=0
+EncodedSecData=80EF579BAEECBE6941A6DC0D437D553FE120026765CF497DEE5D
+DecodedSecData=

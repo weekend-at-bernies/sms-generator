@@ -1,0 +1,2 @@
+Error: could not find input file sms/test/test16/sms.ini
+./Driver.py -i <input file> [-v verbose] [-V extra verbose] [-h THIS help]

@@ -1,0 +1,32 @@
+Test1:
+Regular SMS-DELIVER encapsulated inside RPDU.
+
+Test2:
+Regular SMS-DELIVER.
+
+Test3:
+Flash SMS-SUBMIT.
+
+Test4,5,6:
+3 x Multipart SMS-SUBMIT (3 parts).
+
+Test 7:
+MMS Notification (over SMS WAP Push).
+
+Test 8:
+SI WAP Push (WBXML over SMS).
+
+Test 9:
+Flash SMS-DELIVER suitable for OpenBTS injection.
+
+Test 10,11,12:
+3 x Multipart SMS-DELIVER suitable for OpenBTS injection.
+
+Test 13:
+SIM card command SMS.
+
+Test 14:
+SMS-DELIVER-REPORT for RP-ERROR, mobile->network (refer: TS 123 040)
+
+Test 15:
+SMS-DELIVER-REPORT for RP-ACK, mobile->network (refer: TS 123 040)

@@ -1,0 +1,16 @@
+The following configurations are used to generate SMS PDUs that can successfully be injected into the Open-BTS SIP.
+
+flash1: a regular "flash" (class 0) SMS
+
+regular1: a plain ol' regular SMS
+
+regular_max: maximum size regular SMS. if you add 1 character to the UD data payload, the SMS will not be delivered
+
+multi1-3: multi part SMS (3 parts) 
+
+SI-WAP1: SI WAP push (WBXML over SMS)
+
+SL-WAP2: SL WAP push that exploits CVE-2014-8507: a WAP push SMS to remotely launch an arbitrary activity or service on < 5.0 Android device assuming WAPPushManager is installed. 
+
+Class2_n: Class 2 SMS
+Class2_1: PID = SIM data download, for passing the SMS transparently to the SIM using the ENVELOPE (SMS-PP DOWNLOAD) command

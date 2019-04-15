@@ -1,0 +1,16 @@
+#!/usr/bin/env python
+
+import pywbxml
+from util import *
+from xml.dom import minidom
+
+as_output = "\x03\x01\x6a\x00\x00\x07\x56\x52\x03\x30\x00\x01\x01"
+
+print "Raw (%d bytes):" % len(as_output)
+print hexdump(as_output)
+
+print "Decoded and pretty-printed:"
+decoded = pywbxml.wbxml2xml(as_output)
+doc = minidom.parseString(decoded)
+print doc.toprettyxml()
+
